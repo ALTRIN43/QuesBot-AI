@@ -9,6 +9,6 @@ def extract_txt_from_ppt(file_path):
                 text += shape.text + " "
     return text.strip()
 
-file_path = "upload your example.pptx"
+file_path = "upload example.pptx"
 extracted_text = extract_txt_from_ppt(file_path)
 print(extracted_text)
