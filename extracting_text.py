@@ -1,4 +1,4 @@
-from pptx import Presentation
+from pptx import Presentation # module used to work with ppt's
 
 def extract_txt_from_ppt(file_path):
     prs = Presentation(file_path)
